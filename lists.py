@@ -38,3 +38,27 @@ if index < my_count:
 
 # Il est toujours possible d'obtenir la taille d'une liste avec la fonction len().
 # Le dernier index d'une liste est taille de la liste -1.
+
+# Ajouter un élément
+fruits = ["ananas","banane","cerise","mangue"]
+fruits.append("datte")
+print(fruits)
+
+# Supprimer un élément sans le récupérer
+del fruits[0]
+print(fruits)
+
+fruits.remove(0)
+print(fruits)
+
+# Supprime et renvoie le dernier élément
+last_element = fruits.pop()
+print(last_element)
+
+# Supprime et renvoie le premier élément
+first_element = fruits.pop(0)
+print(first_element)
+
+# Insérer un élément
+fruits.insert(1, 'kiwi')
+print(fruits)
