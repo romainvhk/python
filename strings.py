@@ -93,3 +93,21 @@ print(my_list1)
 
 # La fontion len() peut aussi être utilisée avec des lists pour compter le nombre d'éléments.
 print(len(my_list1))
+
+# Accès en lecture au 0ème caratère de la str
+print(my_texte9[0])
+
+# Accès en écriture interdit
+# my_texte9[0] = 'A'
+
+# Accès en lecture du 0ème au 10ème caractère de la str
+print(my_texte9[0:10])
+
+# Accès en lecture du 10ème caractère jusqu'à la fin de la str
+print(my_texte9[10:])
+
+# Accès en lecture par la fin de la str
+print(my_texte9[::-1])
+
+# Accès en lecture d'un caractère sur 2 de la str
+print(my_texte9[::2])
