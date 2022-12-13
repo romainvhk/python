@@ -38,4 +38,3 @@ if index < my_count:
 
 # Il est toujours possible d'obtenir la taille d'une liste avec la fonction len().
 # Le dernier index d'une liste est taille de la liste -1.
-
