@@ -4,11 +4,11 @@
 
 # réponse 5.1
 def multiplication(a: float, b: float) -> float:
-    """Cette fonction multiplie a par b.
+    """Cette fonction multiplie deux nombres.
     
-    a: float ce paramètre indique que le premier nombre est un flottant
-    b: float ce paramètre indique que le deuxième nombre est un flottant
-    renvoie un flottant
+    a: float est le premier nombre à multiplier
+    b: float est le deuxième nombre à multiplier.
+    return float est le résultat de la multiplication
     """
     return a * b
   
