@@ -14,8 +14,7 @@ miles = 3
 
 # réponse 3.6
 
-miles = 1 * 1609.344
-meters = miles * 3
-print(round(meters,0))
+meters = miles * 1609.344
+print(round(int(meters),0))
 km = meters / 1000
-print(round(km,0))
+print(round(int(km),0))

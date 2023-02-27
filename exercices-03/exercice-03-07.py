@@ -12,5 +12,5 @@ tax_rate = 20
 
 # réponse 3.7
 
-tax_fee = (price * 20) / 100
+tax_fee = (price * tax_rate) / 100
 print(tax_fee)
